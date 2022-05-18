@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.presentation{
+    background-color: #0088d0;
+    color: white;
+    margin-bottom: 2em;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.name h2{
+margin-top: 1em;
+margin-bottom: 0.5em;
+}
+.name img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin-top: 3em;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    height: 80px;
+}
+.call, .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid white;
+    height: 80px;
+}
+.call p, .email p{
+    margin-top: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.container p{
+    margin-top: 5px;
+    color: gray;
+    font-family: "Source Sans Pro Bold", sans-serif !important;
+}
+.null{
+    height: 0%;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+}
+.icon img{
+    height: 2em;
+    width: 2em;
+}
+.idk, .movil, .telefono, .mail, .enterprise, .web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5rem;
+}
+.redes{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3aaa35;
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    
+}
+.whatsapp img{
+    height: 2em;
+    width: 2em;
+}
+.call:hover, .email:hover, .whatsapp:hover{
+    background-color: rgb(207, 204, 204);
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
